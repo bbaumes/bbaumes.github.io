@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ben Baumes — Customer Success</title>
+<meta name="description" content="Ben (Benjamin) Baumes — customer success leader. Fifteen years building the function when there isn't one. Milwaukee, remote.">
+<meta property="og:title" content="Ben Baumes — Customer Success">
+<meta property="og:description" content="Fifteen years building the function when there isn't one.">
+<meta property="og:type" content="profile">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Spectral:wght@300;400;500&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Ben Baumes",
+  "alternateName":["Benjamin Baumes","Ben (Benjamin) Baumes"],
+  "jobTitle":"Customer Success Leader",
+  "email":"bbaumes@gmail.com",
+  "address":{"@type":"PostalAddress","addressLocality":"Milwaukee","addressRegion":"WI","addressCountry":"US"},
+  "alumniOf":"Cornell University",
+  "sameAs":["https://www.linkedin.com/in/ben-baumes-2865651/"],
+  "knowsAbout":["Customer Success","Enterprise SaaS","Client Retention","Voice of the Customer","Cross-functional Collaboration"]
+}
+</script>
+
+<style>
+:root{
+  --paper:#E8E4D6;
+  --ink:#1A1A18;
+  --soft:#726E62;
+  --hair:#1A1A18;
+  --c1:#5C7A6B;   /* dusty green */
+  --c2:#C98A94;   /* chalk rose  */
+  --c3:#D8B764;   /* soft ochre  */
+  --c4:#6E7E92;   /* steel blue  */
+  --c5:#B5654A;   /* terracotta  */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Archivo',system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 40px}
+
+.codebar{display:flex;height:8px;width:100%}
+.codebar span{flex:1}
+.codebar .k1{background:var(--c1)}
+.codebar .k2{background:var(--c2)}
+.codebar .k3{background:var(--c3)}
+.codebar .k4{background:var(--c4)}
+.codebar .k5{background:var(--c5)}
+
+.mast{
+  display:grid;
+  grid-template-columns:1fr auto;
+  align-items:end;
+  padding:34px 0 30px;
+  border-bottom:1px solid var(--hair);
+}
+.cat{font-family:'Major Mono Display',monospace;font-size:13px;letter-spacing:.12em;color:var(--soft);text-transform:lowercase}
+.mast .id{text-align:right;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--soft);line-height:1.8}
+
+.hero{padding:15vh 0 13vh;border-bottom:1px solid var(--hair)}
+.hero h1{
+  font-family:'Spectral',Georgia,serif;
+  font-weight:300;
+  font-size:clamp(38px,7.5vw,90px);
+  line-height:1.0;
+  letter-spacing:-.02em;
+}
+.hero h1 .lc{display:block}
+.hero-claim{
+  font-family:'Spectral',Georgia,serif;
+  font-weight:400;
+  font-style:italic;
+  font-size:clamp(20px,2.6vw,30px);
+  letter-spacing:-.01em;
+  margin-top:26px;
+  color:var(--c2);
+}
+.hero-foot{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:64px;align-items:end}
+.hero-sub{font-family:'Spectral',Georgia,serif;font-size:clamp(17px,2vw,21px);font-weight:400;line-height:1.45;max-width:42ch}
+.hero-meta{font-size:13px;letter-spacing:.02em;color:var(--soft);line-height:2;text-align:right}
+.hero-meta a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--ink)}
+.hero-meta a:hover{color:var(--c2);border-bottom-color:var(--c2)}
+.hero-meta a:focus-visible{outline:2px solid var(--c2);outline-offset:3px}
+
+.sec{padding:11vh 0;border-bottom:1px solid var(--hair)}
+.sec-head{display:grid;grid-template-columns:120px 1fr;gap:40px;margin-bottom:64px;align-items:baseline}
+.sec-num{font-family:'Major Mono Display',monospace;font-size:13px;letter-spacing:.1em;color:var(--soft);padding-top:8px;text-transform:lowercase}
+.sec-title{font-family:'Spectral',Georgia,serif;font-weight:300;font-size:clamp(28px,4vw,46px);letter-spacing:-.015em;line-height:1.05}
+
+.entry-key{font-size:12px;letter-spacing:.04em;color:var(--soft);line-height:1.7}
+.entry-key .swatch{display:inline-block;width:10px;height:10px;margin-right:7px;vertical-align:middle}
+.entry-where{font-family:'Spectral',Georgia,serif;font-size:26px;font-weight:500;letter-spacing:-.01em;margin-bottom:4px}
+.entry-role{font-size:13px;color:var(--soft);margin-bottom:26px;letter-spacing:.01em}
+
+.case{display:grid;grid-template-columns:120px 1fr;gap:40px}
+.case-body{max-width:62ch}
+.case-body p{margin-bottom:22px}
+.case-body p:last-child{margin-bottom:0}
+.case .lede{font-family:'Spectral',Georgia,serif;font-weight:300;font-size:clamp(21px,2.8vw,30px);line-height:1.32;letter-spacing:-.01em;margin-bottom:36px}
+.case-body ul{list-style:none}
+.case-body li{padding:16px 0;border-top:1px solid rgba(17,17,19,.14);font-size:16px;line-height:1.6;color:#33332f}
+.case-body li strong{font-weight:600;color:var(--ink)}
+.case-body li .lead{display:block;font-family:'Archivo',sans-serif;font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--soft);margin-bottom:6px}
+
+.margin-note{margin-top:30px;padding:20px 24px;border:1px solid var(--hair);background:rgba(17,17,19,.03);font-size:14px;line-height:1.6;color:var(--soft)}
+.margin-note b{display:block;font-family:'Archivo',sans-serif;font-weight:700;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);margin-bottom:8px}
+
+.now-body{display:grid;grid-template-columns:120px 1fr;gap:40px}
+.now-inner{max-width:60ch}
+.now-inner p{margin-bottom:22px;font-size:17px}
+.now-inner p:last-of-type{margin-bottom:0}
+.now-inner strong{font-weight:600}
+.cta{font-family:'Spectral',Georgia,serif;font-style:italic;font-size:clamp(18px,2.2vw,24px);line-height:1.4;margin-top:38px;color:var(--ink)}
+.cta a{color:var(--c5);text-decoration:none;border-bottom:1px solid var(--c5);font-style:normal}
+.cta a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.tags{display:flex;flex-wrap:wrap;gap:0;margin-top:40px;border-top:1px solid var(--hair);border-left:1px solid var(--hair)}
+.tag{font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:11px 16px;border-right:1px solid var(--hair);border-bottom:1px solid var(--hair);color:var(--soft)}
+
+footer{padding:64px 0 20px}
+.foot-grid{display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px}
+.foot-name{font-family:'Spectral',Georgia,serif;font-size:22px;font-weight:400}
+.foot-links{display:flex;gap:26px;font-size:13px;letter-spacing:.02em}
+.foot-links a{color:var(--soft);text-decoration:none}
+.foot-links a:hover{color:var(--c2)}
+.foot-links a:focus-visible{outline:2px solid var(--c2);outline-offset:3px}
+.foot-code{font-family:'Major Mono Display',monospace;margin-top:40px;font-size:11px;letter-spacing:.12em;text-transform:lowercase;color:var(--soft)}
+
+@media (max-width:720px){
+  .wrap{padding:0 24px}
+  .sec-head,.case,.now-body{grid-template-columns:1fr;gap:16px}
+  .sec-head{margin-bottom:44px}
+  .hero-foot{grid-template-columns:1fr;gap:28px}
+  .hero-meta{text-align:left}
+  .mast{grid-template-columns:1fr}
+  .mast .id{text-align:left;margin-top:12px}
+}
+</style>
+</head>
+<body>
+
+<div class="codebar" aria-hidden="true">
+  <span class="k1"></span><span class="k2"></span><span class="k3"></span><span class="k4"></span><span class="k5"></span>
+</div>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="cat">Ben (Benjamin) Baumes</div>
+    <div class="id">Customer Success<br>Milwaukee &middot; Remote</div>
+  </header>
+
+  <section class="hero">
+    <h1><span class="lc">A product is only worth</span><span class="lc">what a customer can get</span><span class="lc">out of it.</span></h1>
+    <p class="hero-claim">That's the part I own.</p>
+    <div class="hero-foot">
+      <p class="hero-sub">Fifteen years in customer success. Learn the tools. Understand the business case. Deliver the path between them. Doing that in both directions &mdash; product to need, need to product &mdash; is how I build lasting relationships, with customers and across the teams inside the company.</p>
+      <div class="hero-meta">
+        <a href="mailto:bbaumes@gmail.com">bbaumes@gmail.com</a><br>
+        <a href="https://www.linkedin.com/in/ben-baumes-2865651/">LinkedIn</a><br>
+        Central time &middot; open to 25% travel
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <div class="sec-num">case 01</div>
+      <h2 class="sec-title">Rebuilding a service model from inside it</h2>
+    </div>
+    <div class="case">
+      <div class="entry-key">
+        <span class="swatch" style="background:var(--c1)"></span>SelectMinds<br>New York<br>2008&ndash;2013
+      </div>
+      <div class="case-body">
+        <p class="lede">The model was two people per book &mdash; an account manager and a service manager. It was rigid, it didn't scale, and I was a CSM with no mandate to change any of it.</p>
+        <p>In 2011 I wrote it up anyway and took it to the C-suite: split the roles. Build a dedicated product specialist team to carry the technical depth, and free the account managers for the relationship and commercial work they were actually good at. Nobody had asked for it.</p>
+        <p>They ran with it &mdash; and built the re-org around me. I moved into a new hybrid role that hadn't existed before: I stood up and managed the specialist team, kept a small book of top-tier clients so I never lost the thread of the actual work, and sat part-time with product as the Voice of the Customer, feeding what we heard into roadmap and prioritization. The model held all the way through the Oracle acquisition.</p>
+        <p>Same instinct, a second time: I noticed clients struggling with something we didn't sell, pitched a Community Management service, and grew it into a billable three-person function.</p>
+
+        <div class="margin-note">
+          <b>Margin note &mdash; where it came from</b>
+          When I started, the company was on two floors: client services upstairs, product and dev downstairs, and a cold war on the staircase. I noticed the downstairs team ate lunch together, so I started showing up. Suspicious for a while, then not. That's where the wall came down &mdash; not in a meeting, at lunch. The restructure worked because those relationships were already there. I still talk to some of them, fifteen years on.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <div class="sec-num">case 02</div>
+      <h2 class="sec-title">Holding the line at enterprise scale</h2>
+    </div>
+    <div class="case">
+      <div class="entry-key">
+        <span class="swatch" style="background:var(--c2)"></span>Oracle<br>Fusion Cloud<br>2013&ndash;2026
+      </div>
+      <div class="case-body">
+        <p class="lede">I came in through the acquisition and stayed thirteen years because the work kept changing &mdash; HCM, recruiting, reporting, learning. Five products in one job.</p>
+        <ul>
+          <li><span class="lead">Escalation &amp; advocacy</span>Owned <strong>5&ndash;10 high-visibility enterprise escalations per quarter</strong>, diagnosis through resolution &mdash; coordinating Support, Product, Development, and Account Management with no formal authority over any of them.</li>
+          <li><span class="lead">Knowledge</span>Built and managed a knowledge asset library that <strong>reduced support cases by 20%</strong>.</li>
+          <li><span class="lead">Voice of the Customer</span>Ran monthly syncs with Product Management &mdash; turning real-time issues and cross-customer patterns into enhancement prioritization.</li>
+          <li><span class="lead">Frontier work</span><strong>Charter member of the support team for Oracle's AI Agent Studio</strong>, building the customer support model for a flagship AI product from nothing.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head">
+      <div class="sec-num">now</div>
+      <h2 class="sec-title">What's next</h2>
+    </div>
+    <div class="now-body">
+      <div class="entry-key">
+        <span class="swatch" style="background:var(--c4)"></span>Available<br>2026
+      </div>
+      <div class="now-inner">
+        <p>Looking for a <strong>founding or early customer success role</strong> at a seed or Series A company. Individual contributor, hands-on. I want to build the function, not inherit one.</p>
+        <p>I'm also building an agent of my own: it pulls market insight, trends, and case studies and synthesizes them on the fly, so the person in front of the customer &mdash; CSM, support, marketing &mdash; has the best current thinking <strong>in the moment</strong>, not three days later. Same instinct as the knowledge base I built at Oracle, aimed at a harder target.</p>
+        <p>Oracle taught me scale, which you can't learn anywhere small. But I've done the early thing before, which means I don't wait for things to break. I know where they go, and I know how to be there ahead of it.</p>
+        <p class="cta">The best version of this conversation is a real one. <a href="mailto:bbaumes@gmail.com">bbaumes@gmail.com</a></p>
+        <div class="tags">
+          <span class="tag">Customer Success</span>
+          <span class="tag">Enterprise SaaS</span>
+          <span class="tag">Retention &amp; Renewals</span>
+          <span class="tag">Voice of the Customer</span>
+          <span class="tag">Escalation Management</span>
+          <span class="tag">GTM Tooling</span>
+          <span class="tag">Applied AI</span>
+          <span class="tag">Product Management</span>
+          <span class="tag">Onboarding</span>
+          <span class="tag">Knowledge Management</span>
+          <span class="tag">Cornell B.S.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-grid">
+      <div class="foot-name">Ben Baumes</div>
+      <div class="foot-links">
+        <a href="mailto:bbaumes@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/ben-baumes-2865651/">LinkedIn</a>
+      </div>
+    </div>
+    <div class="foot-code">bb &middot; cs &middot; mke &middot; mmxxvi</div>
+  </footer>
+
+</div>
+
+</body>
+</html>
